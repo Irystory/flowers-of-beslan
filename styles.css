@@ -510,6 +510,7 @@ section {
     .hero-content {
         padding: 0 var(--spacing-m);
     }
+
 }
 
 @media (max-width: 480px) {

@@ -229,7 +229,7 @@
   /* Responsive */
   @media (max-width: 768px) {
     .process-header {
-      height: 50vh;
+      height: 100vh;
     }
     
     .process-title {
@@ -249,8 +249,9 @@
     
     .image-container {
       height: 300px;
+      margin-bottom: 5rem;
     }
-    
+
     .process-section {
       padding-bottom: var(--spacing-m);
     }
