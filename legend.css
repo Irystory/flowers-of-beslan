@@ -171,6 +171,11 @@
 @media (max-width: 768px) {
     .legend-section {
         padding: var(--spacing-l) var(--spacing-m);
+        padding-top: 3rem;
+    }
+
+    .legend-header h2 {
+        margin-top: 2rem;
     }
     
     .petal-color .legend-items,
@@ -204,6 +209,7 @@
 @media (max-width: 480px) {
     .legend-section {
         padding: var(--spacing-m) var(--spacing-s);
+        padding-top: 3rem;
     }
     
     .petal-color .legend-items,
@@ -230,4 +236,6 @@
     .legend-item p {
         font-size: 0.875rem;
     }
+
+
 }

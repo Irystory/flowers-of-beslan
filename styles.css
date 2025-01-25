@@ -246,8 +246,9 @@ section {
     .content-section {
         display: flex;
         flex-direction: column;
-        height: unset !important; /* Remove any height constraints */
-        min-height: unset !important; /* Remove minimum height constraint */
+        height: unset !important; 
+        min-height: unset !important; 
+        padding-top: 4rem;
     }
 
     .text-section {
@@ -283,6 +284,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    
 }
 
 /* Adjust container to match legend section exactly */
@@ -347,7 +349,7 @@ section {
     font-size: var(--body);
     max-width: 700px;
     line-height: var(--line-height-body);
-    color: var(--color-text-light);
+    color: var (--color-text-light);
     opacity: 0.8;
 }
 
@@ -355,16 +357,19 @@ section {
 @media (max-width: 1024px) {
     .contributors-title::after {
         width: 60%;
+        margin-top: 4rem;
     }
 }
 
 @media (max-width: 768px) {
     .contributors-section {
         padding: var(--spacing-l) var(--spacing-m);
+        padding-top: 4rem;
     }
 
     .contributors-title::after {
         width: 40%;
+        margin-top: 4rem;
     }
     
     .contributors-list {
@@ -375,10 +380,12 @@ section {
 @media (max-width: 480px) {
     .contributors-section {
         padding: var(--spacing-m) var(--spacing-s);
+        padding-top: 4rem;
     }
 
     .contributors-title::after {
         width: 20%;
+        margin-top: 4rem;
     }
 }
 
@@ -531,6 +538,8 @@ section {
     .hero-content {
         padding: 0 var(--spacing-m);
     }
+
+
 
 }
 
