@@ -76,30 +76,34 @@ body {
 .nav-link {
     color: var(--color-text-light);
     font-size: var(--body);
+    margin-right: 1rem;
     text-decoration: none;
     position: relative;
-    transition: opacity var(--transition-standard);
+    transition: color var(--transition-standard);
 }
 
 .nav-link:hover {
-    opacity: 0.8;
+    color: var(--color-text-light);
+    text-decoration: none;
 }
 
 .nav-link::after {
     content: '';
     position: absolute;
-    bottom: -4px;
-    left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--color-accent);
+    background: var(--color-accent);
+    bottom: -4px;
+    left: 0;
     transition: width var(--transition-standard);
 }
 
-.nav-link.active::after,
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link.active::after {
     width: 100%;
 }
+
+
 
 /* Common Section Styles */
 section {

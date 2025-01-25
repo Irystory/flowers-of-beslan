@@ -52,7 +52,7 @@
 }
 
 .nav-link:hover {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .nav-link::after {
