@@ -1,0 +1,233 @@
+/* Legend Section */
+.legend-section {
+    background-color: var(--color-background-light);
+    padding: var(--spacing-xl) var(--spacing-l);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.legend-section .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Header */
+.legend-header {
+    text-align: left;
+    margin-bottom: var(--spacing-xl);
+}
+
+.legend-header h2 {
+    font-family: var(--font-heading);
+    font-size: var(--h2-size);
+    margin-bottom: var(--spacing-m);
+    font-weight: 700;
+    color: var(--color-text-dark);
+}
+
+.legend-subtitle {
+    font-size: var(--body);
+    margin-bottom: var(--spacing-m);
+    color: var(--color-text-dark);
+}
+
+.legend-description {
+    font-size: var(--body-large);
+    max-width: 800px;
+    line-height: var(--line-height-body);
+    margin-bottom: 0;
+    color: var(--color-text-dark);
+}
+
+/* Legend Grid */
+.legend-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+/* Section Titles */
+.legend-row h3 {
+    font-family: var(--font-heading);
+    font-size: var(--h3-size);
+    margin-bottom: var(--spacing-l);
+    color: var(--color-text-dark);
+    position: relative;
+    padding-bottom: var(--spacing-s);
+}
+
+/* Lines under section titles */
+.petal-color h3::after,
+.stamen-color h3::after,
+.flower-size h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Common grid settings */
+.petal-color .legend-items,
+.stamen-color .legend-items,
+.flower-size .legend-items {
+    display: grid;
+    gap: var(--spacing-l);
+}
+
+/* Default grid columns */
+.petal-color .legend-items {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.legend-row.combined {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: var(--spacing-l);
+}
+
+.stamen-color .legend-items {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.flower-size .legend-items {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Individual Items */
+.legend-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 280px;
+}
+
+.legend-item img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: var(--spacing-m);
+}
+
+.legend-item p {
+    font-size: var(--body);
+    line-height: var(--line-height-body);
+    color: var(--color-text-dark);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Specific flower sizes */
+.flower-size .legend-item:nth-child(2) img,
+.flower-size .legend-item:nth-child(3) img {
+    width: 135px;
+    height: 135px;
+}
+
+/* Responsive Design */
+@media (max-width: 1400px) {
+    .legend-item img {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .flower-size .legend-item:nth-child(2) img,
+    .flower-size .legend-item:nth-child(3) img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .petal-color .legend-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .legend-row.combined {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+    
+    .stamen-color .legend-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .flower-size .legend-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .petal-color h3::after {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .legend-section {
+        padding: var(--spacing-l) var(--spacing-m);
+    }
+    
+    .petal-color .legend-items,
+    .stamen-color .legend-items,
+    .flower-size .legend-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .legend-item {
+        min-height: 220px;
+    }
+    
+    .legend-item img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .flower-size .legend-item:nth-child(2) img,
+    .flower-size .legend-item:nth-child(3) img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .petal-color h3::after,
+    .stamen-color h3::after,
+    .flower-size h3::after {
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .legend-section {
+        padding: var(--spacing-m) var(--spacing-s);
+    }
+    
+    .petal-color .legend-items,
+    .stamen-color .legend-items,
+    .flower-size .legend-items {
+        grid-template-columns: 1fr;
+    }
+    
+    .legend-row.combined {
+        gap: var(--spacing-l);
+    }
+    
+    .legend-item {
+        min-height: 200px;
+        margin-bottom: var(--spacing-m);
+    }
+    
+    .petal-color h3::after,
+    .stamen-color h3::after,
+    .flower-size h3::after {
+        width: 20%;
+    }
+    
+    .legend-item p {
+        font-size: 0.875rem;
+    }
+}
