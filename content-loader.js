@@ -23,6 +23,7 @@ function insertMainContent(content) {
     
     // Insert about content
     document.querySelector('.about-title').textContent = content.about.title;
+    document.querySelector('.about-subtitle').textContent = content.about.author;
     document.querySelector('.about-description-1').textContent = content.about.description1;
     document.querySelector('.about-description-2').textContent = content.about.description2;
     document.querySelector('.about-description-3').textContent = content.about.description3;
