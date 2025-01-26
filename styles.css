@@ -349,7 +349,7 @@ section {
     font-size: var(--body);
     max-width: 700px;
     line-height: var(--line-height-body);
-    color: var (--color-text-light);
+    color: var(--color-text-light);
     opacity: 0.8;
 }
 
