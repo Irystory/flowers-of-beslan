@@ -2,12 +2,12 @@
     "main": {
         "hero": {
             "title": "Flowers of Beslan",
-            "description": "Twenty years ago, in the small city of Beslan, more than a thousand people gathered to celebrate the 1st of September—the start of the school year. Instead, they were taken hostage by terrorists and spent three scorching days cramped in a school gym without food or water. This act of terror took lives of 334 people, 186 of them were children."
+            "description": "Twenty years ago, in the small city of Beslan, more than a thousand people gathered to celebrate the 1st of September — the start of the school year. Instead, they were taken hostage by terrorists and spent three scorching days cramped in a school gym without food or water. <a href='https://en.wikipedia.org/wiki/Beslan_school_siege' target='_blank' class='hero-link'>This act of terror</a> took lives of 334 people, 186 of them were children."
         },
         "about": {
             "title": "About The Project",
             "author": "Artist: Nina Lindell",
-            "description1": "Flowers of Beslan is a handcrafted memorial that honors the 334 lives lost in the 2004 Beslan school tragedy through individually crafted paper poppies. Each delicate flower serves as a 'data portrait'. Its petals, height, and features carefully designed to tell the story of one person — their fate during the attack, their age, their gender, and their connection to others.",
+            "description1": "Flowers of Beslan is a handcrafted memorial that honors the 334 lives lost in <a href='https://en.wikipedia.org/wiki/Beslan_school_siege' target='_blank' class='hero-link'>the 2004 Beslan school tragedy</a>  through individually crafted paper poppies. Each delicate flower serves as a 'data portrait'. Its petals, height, and features carefully designed to tell the story of one person — their fate during the attack, their age, their gender, and their connection to others.",
             "description2": "Created during one year of meticulous work, this project transforms statistics into a living field of remembrance, where every flower stands as both a personal tribute and part of a collective visualization of loss. The poppy field 'grows' in School No.1's assembly hall — now part of Beslan memorial center — where bullet-marked walls still bear witness to the events of September 1-3rd 2024.",
             "description3": "The installation is accompanied by an ambient soundscape: fainted music of Ossetian folk instrument Ӄisyn-Fændyr and the sounds of water, the water that the hostages so desperately needed."
         },
@@ -98,7 +98,7 @@
         },
         "section4": {
             "title": "Material Selection",
-            "description": "The possibilities for encoding depended heavily on the chosen material. Initially, I considered knitting or crocheting the flowers, as these were techniques I knew well. After creating initial prototypes, I realized this wasn't the right medium. The flowers were too time-consuming to create, and simply didn't have the tender and realistic look I envisioned.\n\nOne December day at a Christmas market in Stockholm, I discovered crépe paper flowers made by Hanna Nyman (@backtopoetry). Their lifelike delicate beauty opened up a world of possibilities. And I dove into it, learned and experimented for a couple of months. My teacher and the master of paper flowers Sofia Vusir Jansson played an instrumental part on that journey, sharing her tips and tricks for bringing my technique to another level.",
+            "description": "The possibilities for encoding depended heavily on the chosen material. Initially, I considered knitting or crocheting the flowers, as these were techniques I knew well. After creating initial prototypes, I realized this wasn't the right medium. The flowers were too time-consuming to create, and simply didn't have the tender and realistic look I envisioned.\n\nOne December day at a Christmas market in Stockholm, I discovered crépe paper flowers made by Hanna Nyman (@backtopoetry). Their lifelike delicate beauty opened up a world of possibilities. And I dove into it, learned and experimented for a couple of months. My teacher and the master of paper flowers <a href='https://www.sofiavusirjansson.com/' target='_blank' class='process-link'>Sofia Vusir Jansson</a> played an instrumental part on that journey, sharing her tips and tricks for bringing my technique to another level.",
             "images": [
                 {
                     "src": "process/img4-1.png",

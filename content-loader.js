@@ -19,14 +19,15 @@ async function loadContent() {
 function insertMainContent(content) {
     // Insert hero content
     document.querySelector('.hero-title').textContent = content.hero.title;
-    document.querySelector('.hero-description').textContent = content.hero.description;
+   // document.querySelector('.hero-description').textContent = content.hero.description;
+    document.querySelector('.hero-description').innerHTML = content.hero.description;
     
     // Insert about content
     document.querySelector('.about-title').textContent = content.about.title;
     document.querySelector('.about-subtitle').textContent = content.about.author;
-    document.querySelector('.about-description-1').textContent = content.about.description1;
-    document.querySelector('.about-description-2').textContent = content.about.description2;
-    document.querySelector('.about-description-3').textContent = content.about.description3;
+    document.querySelector('.about-description-1').innerHTML = content.about.description1;
+    document.querySelector('.about-description-2').innerHTML = content.about.description2;
+    document.querySelector('.about-description-3').innerHTML = content.about.description3;
 
     // Insert contributors content
     insertContributorsContent(content.contributors);

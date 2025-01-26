@@ -183,7 +183,18 @@ section {
     margin-right: auto;
     line-height: var(--line-height-body);
 }
+.hero-link {
+    color: var(--color-text-light);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: opacity var(--transition-standard);
+}
 
+.hero-link:hover {
+    opacity: 0.8;
+    color: var(--color-text-light);
+}
 /* About Section */
 .content-section {
     min-height: 90vh;
