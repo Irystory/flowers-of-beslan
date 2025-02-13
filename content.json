@@ -21,14 +21,14 @@
                 },
                 {
                     "title": "Crafting Help",
-                    "content": "Bitten Lindell, Cecilia Soikkeli, Anna Tsutsieva, Dzerassa Gabisova, Alla Gabisova, Stefan Kwiecinski, Larisa Pesonen, Dilyara Alimbayeva, Students of the Vladikavkaz Art Academy and its directror Aslan Khetagurov"
+                    "content": "Bitten Lindell, Cecilia Soikkeli, Anna Tsutsieva, Dzerassa Gabisova, Alla Gabisova, Stefan Kwiecinski, Larisa Pesonen, Dilyara Alimbayeva, Students of the Vladikavkaz Art Academy and its director Aslan Khetagurov"
                 },
                 {
                     "title": "Music", 
                     "content": "Ivan Axenov"
                 },
                 {
-                    "title": "Installation",
+                    "title": "Installation Help",
                     "content": "The staff of the Memorial Center 'Beslan. School No.1' (Larisa Sokhieva, Emma Kelekhsaeva, Batraz Bitiev, Artemiy Mirikov, Zifa Bazaeva, Felix Humarov), Ilona Nugzarova, Akhsartag Tsutsiev"
                 },
                 {
@@ -51,7 +51,7 @@
     "process": {
         "section1": {
             "title": "Idea",
-            "description": "The idea for this project came to me on September 1st, 2023, when everyone in Ossetia remembers the victims of the terrorist attack on School No. 1 in Beslan in 2004. The years pass, but the memory does not fade. On the contrary, each anniversary feels heavier than the last. I needed to find a way to process this – to make sense of it all. So I decided to create a handcrafted 'data-portrait' for each of the victims, something that would stand as an individual tribute while collectively creating a visual representation of the true scale of the lost lives.",
+            "description": "The idea for this project came to me on September 1st, 2023, when everyone in Ossetia remembers the victims of the terrorist attack on School No. 1 in Beslan in 2004. Back then I was 12 years old and living in a neighboring city. Only now do I fully realize how deeply these events affected me.\n\nEvery September 1st, along with every Ossetian, I find myself revisiting the attack—reading about it, looking into the eyes of those 334 victims, and asking the same unanswered questions. I needed a way to cope with these thoughts, a way to grasp the scale of the tragedy. So I decided to create a handcrafted 'data-portrait' for each of the victims, something that would stand as an individual tribute while collectively creating a visual representation of the true scale of the lost lives.",
             "images": [
                 {
                     "src": "process/img1-1.jpg",
